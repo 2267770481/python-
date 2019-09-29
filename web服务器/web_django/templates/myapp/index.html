@@ -1,0 +1,24 @@
+<html>
+<head>
+	<title>Draw Table</title>
+	<style>
+		#text{
+			color: #6F00D2;
+			background-color: #00EC00;
+		}
+	</style>
+	<script language="javascript" type="text/javascript" src="E:/python/code/web_django/templates/myapp/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript">
+			function but(){
+				var inputValid = document.getElementById("text").value;
+				alert(inputValid)
+			}
+	</script>
+</head>
+<body>
+	<div>
+		<tr><textarea id='text' name='text' cols='30' rows='8'></textarea></tr><br/>
+		<tr><button id='but' type='button' onclick='but()'">提交</button></tr>
+	</div>
+</body>
+</html>
